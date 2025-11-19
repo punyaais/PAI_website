@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masuknya Islam di Kaukasus — Website Edukasi</title>
+  <link rel="icon" type="image/png" href="image/iconweb.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Materi sejarah: Masuknya Islam di Kaukasus. Latar, proses, tokoh, dan dampak—disajikan dalam layout pendidikan responsif." />
+  <style>
+    :root {
+      --navy: #0a1a3f;
+      --yellow: #facc15;
+    }
+    .timeline-line { background: linear-gradient(180deg, rgba(10,26,63,0.9), rgba(10,26,63,0.8)); }
+    .drop-shadow-soft { box-shadow: 0 6px 18px rgba(16,24,40,0.08); }
+    .crescent::before{
+      content: "\263D";
+      font-size: 40px;
+      opacity: .14;
+      position: absolute;
+      right: 8px;
+      top: -8px;
+      transform: rotate(-12deg);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+        body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+    .card-hover { transition: transform .28s ease, box-shadow .28s ease; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(10,26,63,.12); }
+    .img-zoom { transition: transform .35s ease; }
+    .img-zoom:hover { transform: scale(1.03); }
+    .fade-up { transform: translateY(16px); opacity: 0; transition: all .7s cubic-bezier(.2,.9,.3,1); }
+    .fade-up.in-view { transform: translateY(0); opacity: 1; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased leading-relaxed">
+
+  
+  <!-- NAVBAR -->
+  <header class="bg-[var(--navy)] text-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-10 lg:px-10">
+      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-lg  flex items-center justify-center text-xl" >
+            <img src="image/iconweb.png" alt="">
+          </div>
+          <a href="#home" class="text-lg font-extrabold">Masuknya Islam di Kaukasus</a>
+        </div>
+        <nav class="hidden lg:flex items-center gap-6 font-medium">
+          <a href="#latar" class="hover:text-[var(--yellow)]">Latar</a>
+          <a href="#proses" class="hover:text-[var(--yellow)]">Proses</a>
+          <a href="#tokoh" class="hover:text-[var(--yellow)]">Tokoh</a>
+          <a href="#peninggalan" class="hover:text-[var(--yellow)]">Peninggalan</a>
+          <a href="#dampak" class="hover:text-[var(--yellow)]">Dampak</a>
+          <a href="#kesimpulan" class="hover:text-[var(--yellow)]">Kesimpulan</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+
+  <section class="relative bg-white rounded-2xl drop-shadow-soft overflow-hidden py-12 px-10 sm:px-6 mt-6">
+    <div class="grid lg:grid-cols-2 gap-8 items-center ml-5">
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--navy)]">
+          Sejarah Masuknya Islam di Kaukasus
+        </h1>
+
+        <p class="mt-4 text-gray-600">
+          Islam berkembang di wilayah Kaukasus melalui proses sejarah yang panjang, dipengaruhi oleh interaksi berbagai peradaban dan masyarakat setempat. Kawasan ini menjadi titik pertemuan budaya, politik, dan agama, sehingga perjalanan masuknya Islam berlangsung secara bertahap dan membentuk identitas masyarakat hingga masa kini.
+        </p>
+
+        <!-- Tombol Mulai Membaca -->
+        <div class="mt-6">
+          <a href="#latar"
+            class="inline-block bg-[var(--navy)] text-white px-5 py-2.5 rounded-lg shadow hover:shadow-md hover:-translate-y-0.5 transition duration-200">
+            Mulai Membaca
+          </a>
+        </div>
+      </div>
+
+      <div class="hidden lg:block">
+        <img src="image/kauskasus.jpg"
+            class="rounded-xl shadow-lg object-cover w-full h-80"/>
+      </div>
+    </div>
+  </section>
+
+    <!-- CONTENT -->
+    <section class="mt-8 space-y-8">
+
+      <!-- Article -->
+      <article class="bg-white p-10 rounded-2xl drop-shadow-soft">
+
+        <h2 id="latar" class="scroll-mt-28 text-2xl font-bold text-[var(--navy)] ml-5 mt-6">1. Latar Belakang Wilayah</h2>
+        <p class="mt-3 ml-5 text-gray-600">
+        Kaukasus merupakan kawasan yang terletak di antara Laut Hitam dan Laut Kaspia, menjadikannya jalur pertemuan berbagai bangsa dan budaya. Sebelum kedatangan Islam, wilayah ini sudah memiliki keragaman keyakinan, termasuk Kristen, Yahudi, Zoroastrianisme, serta berbagai kepercayaan lokal yang diwariskan turun-temurun.        
+        </p>
+        <h2 id="proses" class="mt-8 text-2xl ml-5 font-bold text-[var(--navy)] scroll-mt-28 ">2. Proses Masuknya Islam</h2>
+        <div class="mt-4 ml-5 space-y-6">
+          <div class="p-4 border-l-4 border-[var(--yellow)] bg-yellow-50 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-0.5 transition duration-200">
+            <h3 class="font-semibold">a) Penaklukan Arab (abad ke-7–8 M)</h3>
+            <p class="mt-2 text-gray-600">Daerah Derbent (Dagestan) menjadi pintu gerbang Islam di Kaukasus Utara.</p>
+          </div>
+          <div class="p-4 border-l-4 border-[var(--navy)] shadow-md rounded-lg hover:shadow-xl hover:-translate-y-0.5 transition duration-200">
+            <h3 class="font-semibold">b) Penyebaran di Kaukasus Selatan</h3>
+            <p class="mt-2 text-gray-600">Islam menyebar lewat dakwah, perdagangan, dan integrasi budaya.</p>
+          </div>
+          <div class="p-4 border-l-4 border-[var(--yellow)] bg-yellow-50 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-0.5 transition duration-200">
+            <h3 class="font-semibold">c) Peran Tarekat Sufi</h3>
+            <p class="mt-2 text-gray-600">Tarekat Naqsyabandiyah dan Qadiriyah sangat berpengaruh.</p>
+          </div>
+        </div>
+
+<section id="timeline" class="py-16 bg-[#fbfbfd] mt-10 rounded-2xl">
+  <div class="max-w-7xl mx-auto px-8">
+
+    <h2 class="text-2xl font-bold text-[var(--navy)]">Timeline: Peristiwa Penting</h2>
+    <p class="mt-3 text-gray-700">
+      Garis waktu vertikal berisi momen-momen kunci dalam penyebaran dan perkembangan Islam di Kaukasus.
+    </p>
+
+    <style>
+      #timeline .timeline-line {
+        width: 4px;
+        background: linear-gradient(180deg, #0a1a3f, #1c2f60);
+      }
+
+      #timeline .timeline-dot {
+        width: 20px;
+        height: 20px;
+        background: radial-gradient(circle at 30% 30%, #fff8ce, #facc15, #d7a40e);
+        border-radius: 50%;
+        border: 2px solid #b58a0a;
+        box-shadow: 0 3px 7px rgba(0,0,0,0.25);
+      }
+
+      #timeline .fade-up {
+        opacity: 0;
+        transform: translateY(14px);
+        animation: fadeUp .6s ease forwards;
+      }
+      @keyframes fadeUp {
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+
+    <div class="mt-10 relative">
+      <div class="absolute left-8 top-0 bottom-0 timeline-line rounded-full"></div>
+
+      <div class="space-y-16 pl-20">
+
+        <!-- ITEM -->
+        <div class="relative">
+          <!-- CENTERED GOLD DOT -->
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">642 M</h4>
+              <span class="text-sm text-gray-500">Awal tradisi</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Catatan tradisi menyebut beberapa sahabat Nabi memasuki kawasan sekitar 642 M.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="relative">
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up" style="animation-delay:.05s;">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">700–800 M</h4>
+              <span class="text-sm text-gray-500">Pengaruh Umayyah</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Kontak dagang Arab–Persia memperluas pengaruh Islam hingga Derbent.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="relative">
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up" style="animation-delay:.1s;">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">922 M</h4>
+              <span class="text-sm text-gray-500">Volga Bulgaria</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Khan Almush menjadikan Islam sebagai agama negara.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="relative">
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up" style="animation-delay:.15s;">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">1200–1500 M</h4>
+              <span class="text-sm text-gray-500">Era Mongol & Khanat</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Khanat Kazan dan Astrakhan berkembang sebagai pusat masyarakat Muslim.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="relative">
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up" style="animation-delay:.18s;">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">1834–1859 M</h4>
+              <span class="text-sm text-gray-500">Imam Syamil</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Imam Syamil memimpin perlawanan Muslim Kaukasus melawan ekspansi Rusia.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="relative">
+          <div class="absolute left-[-55px] top-1/2 -translate-y-1/2 timeline-dot"></div>
+          <div class="bg-white p-6 rounded-2xl shadow-sm fade-up" style="animation-delay:.2s;">
+            <div class="flex items-center justify-between">
+              <h4 class="font-semibold text-[var(--navy)]">1991–Kini</h4>
+              <span class="text-sm text-gray-500">Pasca-Soviet</span>
+            </div>
+            <p class="mt-2 text-gray-700 text-sm">
+              Rehabilitasi masjid, sekolah agama, dan tradisi sufi pasca runtuhnya Uni Soviet.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <!-- TOKOH: 3 CARD KLIK -->
+        <h2 id="tokoh" class="mt-10 ml-5 text-2xl font-bold text-[var(--navy)] scroll-mt-28">3. Tokoh & Gerakan</h2>
+
+        <div class="mt-6 ml-5 grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          <!-- CARD 4 -->
+          <a href="https://id.wikipedia.org/wiki/Maslamah_bin_Abdul-Malik" target="_blank"
+             class="block bg-white rounded-xl overflow-hidden border drop-shadow-soft hover:shadow-xl hover:-translate-y-1 transition duration-200">
+            <img src="image/maslama.jpg"
+                 class="w-full h-60 object-cover">
+            <div class="p-4">
+              <h4 class="font-semibold text-lg">Maslamah bin Abdul-Malik (685–738)</h4>
+              <p class="mt-2 text-gray-600 text-sm">
+                Gubernur Arab Umayyah yang membangun Masjid Juma di Derbent (Dagestan) sekitar tahun 733-734 M sebagai salah satu pusat syiar Islam di kawasan Kaukasus. 
+              </p>
+            </div>
+          </a>
+
+          <!-- CARD 1 -->
+          <a href="https://id.wikipedia.org/wiki/Imam_Syamil" target="_blank"
+             class="block bg-white rounded-xl overflow-hidden border drop-shadow-soft hover:shadow-xl hover:-translate-y-1 transition duration-200">
+            <img src="image/imamshamil.jpg"
+                 class="w-full h-60 object-cover">
+            <div class="p-4">
+              <h4 class="font-semibold text-lg">Imam Syamil (1797–1871)</h4>
+              <p class="mt-2 text-gray-600 text-sm">
+                Pemimpin perjuangan Muslim Kaukasus melawan Rusia. Tokoh besar tarekat Naqsyabandiyah.
+              </p>
+            </div>
+          </a>
+
+          <!-- CARD 2 -->
+          <a href="https://en.wikipedia.org/wiki/Sheikh_Mansur" target="_blank"
+             class="block bg-white rounded-xl overflow-hidden border drop-shadow-soft hover:shadow-xl hover:-translate-y-1 transition duration-200">
+            <img src="image/syekhmansur.jpg"
+                 class="w-full h-60 object-cover">
+            <div class="p-4">
+              <h4 class="font-semibold text-lg">Syekh Mansur (1760–1794)</h4>
+              <p class="mt-2 text-gray-600 text-sm">
+                Pemimpin perlawanan Islam pertama di Chechnya. Berpengaruh dalam penyebaran ajaran reformis.
+              </p>
+            </div>
+          </a>
+
+          <!-- CARD 3 -->
+          <a href="https://en.wikipedia.org/wiki/Kunta-Haji" target="_blank"
+             class="block bg-white rounded-xl overflow-hidden border drop-shadow-soft hover:shadow-xl hover:-translate-y-1 transition duration-200">
+            <img src="image/kuntahaji.jpg"
+                 class="w-full h-60 object-cover">
+            <div class="p-4">
+              <h4 class="font-semibold text-lg">Sheikh Kunta-Haji (1800–1867)</h4>
+              <p class="mt-2 text-gray-600 text-sm">
+                Ulama sufi Qadiriyah yang menekankan dakwah damai dan berpengaruh kuat dalam spiritualitas Kaukasus.
+              </p>
+            </div>
+          </a>
+
+        </div>
+        
+        <!-- PENINGGALAN SEJARAH ISLAM -->
+        <section class="mt-10">
+          <div class="content-max mx-auto ml-5">
+
+            <!-- Heading -->
+            <h2 id="peninggalan" 
+                class="text-2xl font-bold text-[var(--navy)] scroll-mt-32">
+              4. Peninggalan Sejarah Islam
+            </h2>
+
+            <p class="mt-3 text-gray-700">
+              Kaukasus menyimpan peninggalan Islam berupa benteng, masjid kuno, madrasah, perpustakaan, dan manuskrip. 
+              Dagestan dikenal sebagai “tanah ribuan masjid”, dan Derbent menjadi situs penting yang menunjukkan jejak awal Islam 
+              di utara Eurasia.
+            </p>
+
+            <!-- Grid Peninggalan -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+
+              <!-- Card 1: Derbent -->
+              <div class="p-4 border-l-4 border-[var(--yellow)] bg-yellow-50 rounded-lg shadow-md hover:shadow-xl transition">
+                <h3 class="text-lg font-semibold text-[var(--navy)]">Derbent</h3>
+                <p class="mt-2 text-sm text-gray-700">
+                  Kota kuno dengan benteng berlapis—saksi awal masuknya Islam di Rusia selatan. 
+                  Sejumlah masjid, gerbang, dan reruntuhan bersejarah masih dilestarikan hingga kini.
+                </p>
+              </div>
+
+              <!-- Card 2: Madrasah & Perpustakaan -->
+              <div class="p-4 border-l-4 border-[var(--navy)] shadow-md rounded-lg hover:shadow-xl transition">
+                <h3 class="text-lg font-semibold text-[var(--navy)]">Madrasah & Perpustakaan</h3>
+                <p class="mt-2 text-sm text-gray-700">
+                  Pusat pendidikan Islam yang menjaga manuskrip Arab klasik serta menjadi tempat berkembangnya 
+                  tradisi ilmu keislaman lokal di Kaukasus.
+                </p>
+              </div>
+
+              <!-- Card 3: Khanat & Masjid Era Mongol–Turki -->
+              <div class="p-4 border-l-4 border-[var(--yellow)] bg-yellow-50 rounded-lg shadow-md hover:shadow-xl transition">
+                <h3 class="text-lg font-semibold text-[var(--navy)]">Khanat & Masjid Era Mongol–Turki</h3>
+                <p class="mt-2 text-sm text-gray-700">
+                  Pertumbuhan Islam pada masa Volga Bulgaria, Kazan, dan Astrakhan menandai perluasan pengaruh Islam 
+                  hingga ke wilayah Eropa Timur.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Dampak -->
+        <h2 id="dampak" class="mt-10 ml-5 text-2xl font-bold text-[var(--navy)] scroll-mt-28">5. Dampak Masuknya Islam</h2>
+        <div class="mt-4 ml-5 overflow-x-auto">
+          <table class="w-full table-auto border-collapse">
+            <thead>
+              <tr class="bg-yellow-50 text-left">
+                <th class="px-4 py-3 border">Aspek</th>
+                <th class="px-4 py-3 border">Dampak</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="odd:bg-white even:bg-gray-50">
+                <td class="px-4 py-3 border font-medium">Sosial & Budaya</td>
+                <td class="px-4 py-3 border">Identitas Islam kuat di Dagestan, Chechnya, dan Ingushetia.</td>
+              </tr>
+              <tr class="odd:bg-white even:bg-gray-50">
+                <td class="px-4 py-3 border font-medium">Politik</td>
+                <td class="px-4 py-3 border">Perlawanan anti-penjajahan dipimpin ulama dan imam.</td>
+              </tr>
+              <tr class="odd:bg-white even:bg-gray-50">
+                <td class="px-4 py-3 border font-medium">Ekonomi</td>
+                <td class="px-4 py-3 border">Jalur perdagangan dengan dunia Islam menguat.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Kesimpulan -->
+        <h2 id="kesimpulan" class="mt-10 ml-5 text-2xl font-bold text-[var(--navy)] scroll-mt-28">6. Kesimpulan</h2>
+        <p class="mt-3 ml-5 mb-6 list-disc text-gray-600">
+          Islam masuk ke Kaukasus melalui proses bertahap yang dipengaruhi penaklukan, perdagangan, dan dakwah. Tokoh-tokoh penting serta jaringan sufi berperan besar dalam memperkuat ajaran dan identitas Islam di kawasan ini. Hingga kini, peninggalan sejarah, tradisi keagamaan, dan struktur sosial masyarakat Kaukasus tetap menunjukkan kuatnya jejak Islam dalam membentuk budaya dan kehidupan mereka.
+        </p>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="bg-white p-6 rounded-2xl drop-shadow-soft">
+        <div class="mt-4">
+          <h4 class="text-m font-bold">Peta Wilayah</h4>
+           <div class="mt-2 rounded overflow-hidden border">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6023022.693577493!2d38.37671509804816!3d42.51431573191702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405b11af05fe6659%3A0x842159602b3eabc0!2sCaucasus!5e0!3m2!1sid!2sid!4v1762997764117!5m2!1sid!2sid" width="100%" height="220" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+
+        <h3 class="mt-5 font-bold text-[var(--navy)]">Ringkasan Singkat</h3>
+        <p class="mt-2 text-gray-600 text-sm">Unduh versi PDF untuk membaca rangkuman materi secara lebih padat dan terstruktur.</p>
+        <a href="https://drive.google.com/uc?export=download&id=1uewNapUn43UV09oSGpFN-PS4jr_sXwe_" class="block mt-6 text-center bg-[var(--navy)] text-white px-4 py-2 rounded-lg hover:shadow-md hover:-translate-y-0.5 transition duration-200">Unduh PDF</a>
+
+      </aside>
+
+    </section>
+
+    <footer class="mt-12 text-center text-gray-500 text-sm mb-12">
+      <p>
+        © PAI 2025 | Peradaban Islam – Kaukasus
+      </p>
+      <p class="mt-2">
+        Agitami Kartika (03) , Aisyah Muna (05) , Kheyza Amrina (31)
+      </p>
+      
+    </footer>
+
+  </main>
+
+</body>
+</html>
